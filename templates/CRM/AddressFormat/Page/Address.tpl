@@ -26,7 +26,7 @@
               {foreach from=$rows item=row}
                 <tr id="address_formats-{$row.id}" class="crm-entity {cycle values="odd-row,even-row"} {$row.class}">
                   <td>{$row.name}</td>
-                  <td class="crm-editable" data-field="format" data-type="textarea">{$row.format|nl2br}</td>
+                  <td>{$row.format|nl2br}</td>
                   <td>{$row.action|replace:'xx':$row.id}</td>
                 </tr>
               {/foreach}
