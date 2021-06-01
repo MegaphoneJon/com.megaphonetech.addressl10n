@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<menu>
-  <item>
-    <path>civicrm/country/addressformat</path>
-    <page_callback>CRM_AddressFormat_Page_Address</page_callback>
-    <title>Country-Address Format</title>
-    <access_arguments>administer CiviCRM</access_arguments>
-  </item>
-</menu>
